@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 // app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 app.use('/public', express.static('public'));
 //databse connection jis file se karna usse kar sakte hai 
-// const connectDB=require('./DataBaseConnection/mongo')
+// const connectDB=require('./DataBaseConnection/mongo') 
 const connectDB = require('./DataBaseConnection/connection')
 
 //for video path load
